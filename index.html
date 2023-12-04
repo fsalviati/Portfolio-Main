@@ -1,0 +1,335 @@
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="icon_tab.png" />
+    <title>Fernando Salviati - Web Dev</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ,
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="scrollTop" onclick="scrollToTop();"><i class="fa fa-angle-double-up fa-3x" aria-hidden="true"></i></i>
+    </div>
+    <div id="navigation">
+        <ul>
+            <li><a href="#" onclick="toggle()">Home</a></li>
+            <li><a href="#sec2" onclick="toggle()">Skills</a></li>
+            <li><a href="#sec3" onclick="toggle()">Expertise</a></li>
+            <li><a href="#sec4" onclick="toggle()">Portfolio</a></li>
+            <li><a href="#sec5" onclick="toggle()">Contact</a></li>
+        </ul>
+    </div>
+    <div id="toggle-container" class="classToogle">
+        <div id="toggle" onclick="toggle()"></div>
+    </div>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Coding is Awesome</a>
+        </header>
+        <div class="content">
+            <h2>Hello World,<br>I'm <span>Fernando Salviati</span></h2>
+            <p>A Front-End Developer based in Melbourne, Australia.<br> I have a serious passion for coding / design and
+                solving problems related to the field of Information Technology. <br>I love spending time on fixing
+                little
+                details and optimizing web apps. </p>
+            <br>
+            <p>Welcome to my porfolio!</p>
+            <a href="./assets/Fernando_Salviati_resume.pdf" download="Fernando_Salviati_resume.pdf" target="_blank">Download Resume</a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/fernando.salviati"><img src="images/facebook.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/fernando-salviati/"><img src="images/linkedin.png" alt=""></a></li>
+            <li><a href="https://github.com/fsalviati"><img src="images/github.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <!-- Skills and Experience section -->
+    <div class="banner-skills" id="sec2">
+        <div id="skills-first-section">
+            <h1>Skills & <br> Experience</h1>
+            <br><br>
+            <p>I have years of experience working with systems development and more precisely Front-End Development in
+                the last two years. In my history, I worked on projects in large companies such as IBM and Deloitte for
+                long and wonderful years. My skill set has always been based on Oracle and SQL development, until the
+                moment I had contact with Web Development and it was love at first sight! Since then, I have been
+                studying and perfecting my technique every day, always trying to deliver Web applications to satisfy the
+                most demanding requirements.
+                <br><br>
+                I am always experimenting, always learning, and never bored.
+                <br>
+                Visit my <a href="https://www.linkedin.com/in/fernando-salviati/">Linkedin</a> for more
+                details or <a href="#sec5">Contact me</a>.
+            </p>
+        </div>
+        <div id="skills-second-section">
+            <div id="skills-second-content">
+                <div class="skills-item">HTML</div>
+                <div class="skills-item">CSS</div>
+                <div class="skills-item">Javascript</div>
+                <div class="skills-item">React JS</div>
+                <div class="skills-item">JQuery</div>
+                <div class="skills-item">GIT</div>
+                <div class="skills-item">UX Design</div>
+                <div class="skills-item">REST API</div>
+                <div class="skills-item">JSON</div>
+                <div class="skills-item">SQL</div>
+            </div>
+        </div>
+        <div>
+            <h1 id="textBelieveSkills">Believe
+                <span>Believe</span>
+                <span>Believe</span>
+                <span>in yourself</span>
+            </h1>
+        </div>
+    </div>
+    <!-- Skills and Experience section end-->
+
+    <!-- Services section -->
+
+    <div class="banner3" id="sec3">
+        <div id="servicesTitle">
+            <h1>What I do</h1>
+            <p>The main pillars where I apply my knowledge.</p>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="contentServices">
+                        <img class="imgServices" src="images/design.png">
+                        <h3>Design</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="contentServices">
+                        <p>Web applications design is an important matter and should not be taken lightly. A
+                            well-designed
+                            app is able to create a good impression on the customer perspective, always based on
+                            a previous analysis
+                            focused on problem solving.
+                            <br>
+                            The UX and UI design can be a dealbreaker within the first 20 seconds.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="contentServices">
+                        <img class="imgServices" src="images/code.png">
+                        <h3>Code</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="contentServices">
+                        <p>Design / Analysis completed, it is time to put my hands on the code, my goal is to always
+                            deliver solutions that will meet the customer's need and requirements with some essencial
+                            aspects:
+                            <br>
+                        <ul>
+                            <li>Enhanced efficiency</li>
+                            <li>Reduced risk failure</li>
+                            <li>Easy to maintain</li>
+                            <li>Bug rectification</li>
+                            <li>Cost efficient</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="contentServices">
+                        <img class="imgServices img-launch" src="images/launch.png">
+                        <h3>Deploy</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="contentServices">
+                        <p>The delivery of the final product is made based on the Four Tier deployment model of <span
+                                id="textItalicServices">Development, Testing, Staging and
+                                Production</span>.
+                            <br>
+                            Do you have an idea for your Web Application? Let's launch it!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services section END-->
+
+    <!-- Portfolio Section -->
+    <div class="banner-portfolio" id="sec4">
+        <div id="portfolioTitle">
+            <h1>Some of my work</h1>
+            <h3>See my full range of projects developed on my <a id="gitlinkPorfolio"
+                    href="https://github.com/fsalviati">Github</a> link.
+            </h3>
+        </div>
+        <div class="containerPortfolioOutside">
+            <div class="containerPortfolio">
+                <div id="cardPortfolio1" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio1.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Portfolio Page</h3>
+                            <p>My first portfolio page containing my skill set, contact, some Web development techniques
+                                and a pretty image gallery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio2" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio2.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Candy Museum</h3>
+                            <p>A Candy Shop Template website developed using HTML, CSS (Bootstrap) and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio3" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio3.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Pig Game</h3>
+                            <p>Pig is a simple dice game.
+                                Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player
+                                decides to hold.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio4" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio4.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>To-Do App</h3>
+                            <p>A classic and useful To-Do List developed using HTML, CSS and JavaScript (JQuery).</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio5" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio5.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Budget Controller</h3>
+                            <p>Budget App controller where the user is able to add or delete expenses, the app shows the
+                                budget available and the percentage referring to the expenses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio6" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio6.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Calculator</h3>
+                            <p>A calculator web page developed using HTML, SASS and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio7" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio7.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Testimonials Page</h3>
+                            <p>Testimonials project page built using concepts and tools for Web Development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="cardPortfolio8" class="cardPortfolio" onclick="exec(this.id)">
+                    <div class="imgBx">
+                        <img src="images/portfolio/portfolio8.jpg">
+                    </div>
+                    <div class="contentBox">
+                        <div class="contentBoxPortfolio">
+                            <h3>Pinterest UI Clone</h3>
+                            <p>Landing page layout based on Pinterest design for studying purpose, using the most modern
+                                concepts and templates of web development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section end-->
+
+    <!-- Contact Section -->
+    <div class="banner-contact" id="sec5">
+        <div class="contactContent">
+            <h1>Contact Me</h1>
+            <p>Get in touch directly for desired projects or general enquiries.</p>
+        </div>
+        <div class="contactContainer">
+            <div class="contactInfo">
+                <div class="contactBox">
+                    <div class="icon"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Location</h3>
+                        <p>Melbourne - Australia</p>
+                    </div>
+                </div>
+                <div class="contactBox">
+                    <div class="icon"><i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>0411802487</p>
+                    </div>
+                </div>
+                <div class="contactBox">
+                    <div class="icon"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>fernandosalviati@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="https://formspree.io/f/moqooorl" method="POST">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="name" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea type="text" name="message" required="required"></textarea>
+                        <span>Type your message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section end-->
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
